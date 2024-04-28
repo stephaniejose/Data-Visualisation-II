@@ -12,3 +12,5 @@ biscoe_penguins <- penguins %>%
   filter(!species == 'Chinstrap') %>%
   ggplot(mapping = aes(x = bill_depth_mm, y = bill_length_mm)) +
   geom_point(mapping = aes(colour = species))
+
+#[2] Facets: Produce this plot using the dataset in the file called wmr_cases_deaths_modelling_summaries.txt
